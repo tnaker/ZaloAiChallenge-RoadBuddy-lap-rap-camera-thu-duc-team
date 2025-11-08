@@ -1,0 +1,16 @@
+# Core
+torch
+transformers
+accelerate
+bitsandbytes
+scipy
+
+# Vision & Data
+opencv-python-headless
+pandas
+scikit-learn
+tqdm
+Pillow
+
+# Hugging Face
+huggingface_hub

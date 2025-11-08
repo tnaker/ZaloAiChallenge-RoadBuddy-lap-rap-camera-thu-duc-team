@@ -1,0 +1,36 @@
+# Operating System files
+.DS_Store
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Data
+data/train/videos/
+data/public_test/videos/
+data/train_frames/
+data/public_test_frames/
+
+# Notebook
+.ipynb_checkpoints
+
+# Model and Outputs
+checkpoints/
+outputs/
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# IDE
+.idea/
+.vscode/
