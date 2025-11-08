@@ -56,7 +56,7 @@ def download_video(url, save_path):
 
 def download_video_in_file(saved_dir, json_file):
     # Load JSON file
-    with open(json_file, 'r') as f:
+    with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)["data"]
 
     # Get unique video paths
@@ -94,6 +94,6 @@ def download_video_in_file(saved_dir, json_file):
 
 
 if __name__ == "__main__":
-    saved_dir = "."  # Change to your desired save directory
-    download_video_in_file(saved_dir=saved_dir, json_file="public_test/public_test.json")
-    download_video_in_file(saved_dir=saved_dir, json_file="train/train.json")
+    saved_dir = "data"  # Change to your desired save directory
+    download_video_in_file(saved_dir=saved_dir, json_file="data/public_test.json")
+    download_video_in_file(saved_dir=saved_dir, json_file="data/train.json")

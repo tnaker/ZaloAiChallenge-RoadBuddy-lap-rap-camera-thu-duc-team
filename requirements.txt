@@ -11,6 +11,7 @@ pandas
 scikit-learn
 tqdm
 Pillow
+requests
 
 # Hugging Face
 huggingface_hub

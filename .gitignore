@@ -34,3 +34,7 @@ outputs/
 # IDE
 .idea/
 .vscode/
+
+# Zip files (cho Google Drive)
+*.zip
+data/train_frames.zip
